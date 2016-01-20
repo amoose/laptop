@@ -83,6 +83,8 @@ What it sets up
 * [RVM] for managing Ruby versions (includes [Bundler] and the latest [Ruby])
 * [Slack] for communicating with your team
 * [Sublime Text 3] for coding all the things
+* [SizeUp] window management
+* [Caffeine] for keeping the mac awake
 * [The Silver Searcher] for finding things in files
 * ~~[Virtualenv] for creating isolated Python environments (via [pyenv] if it is installed)~~
 * ~~[Virtualenvwrapper] for extending Virtualenv (via [pyenv] if it is installed)~~
@@ -111,6 +113,8 @@ What it sets up
 [RVM]: https://github.com/wayneeseguin/rvm
 [Slack]: https://slack.com/
 [Sublime Text 3]: http://www.sublimetext.com/3
+[SizeUp]: http://www.irradiatedsoftware.com/sizeup/
+[Caffeine]: https://itunes.apple.com/us/app/caffeine/id411246225?mt=12
 [The Silver Searcher]: https://github.com/ggreer/the_silver_searcher
 [Virtualenv]: https://virtualenv.pypa.io/en/latest/
 [Virtualenvwrapper]: http://virtualenvwrapper.readthedocs.org/en/latest/#
