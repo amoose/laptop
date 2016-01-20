@@ -1,6 +1,6 @@
 Laptop
 ======
-[![Build Status](https://travis-ci.org/18F/laptop.svg)](https://travis-ci.org/18F/laptop)
+[![Build Status](https://travis-ci.org/amoose/laptop.svg)](https://travis-ci.org/amoose/laptop)
 
 Laptop is a script to set up an OS X computer for web development.
 
@@ -33,10 +33,10 @@ time, then press `return` after each one to download and execute the
 script, respectively:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/amoose/laptop/master/mac
 bash mac 2>&1 | tee ~/laptop.log
 ```
-The [script](https://github.com/18F/laptop/blob/master/mac) itself is
+The [script](https://github.com/amoose/laptop/blob/master/mac) itself is
 available in this repo for you to review if you want to see what it does
 and how it works.
 
@@ -51,7 +51,7 @@ Once the script is done, make sure to quit and relaunch Terminal.
 More [detailed instructions with a video][video] are available in the Wiki.
 
 [Spotlight]: https://support.apple.com/en-us/HT204014
-[video]: https://github.com/18F/laptop/wiki/Detailed-installation-instructions-with-video
+[video]: https://github.com/amoose/laptop/wiki/Detailed-installation-instructions-with-video
 
 Debugging
 ---------
@@ -59,7 +59,7 @@ Debugging
 Your last Laptop run will be saved to `~/laptop.log`. Read through it to see if
 you can debug the issue yourself. If not, copy the lines where the script
 failed into a [new GitHub
-Issue](https://github.com/18F/laptop/issues/new) for us. Or, attach the
+Issue](https://github.com/amoose/laptop/issues/new) for us. Or, attach the
 whole log file as an attachment.
 
 What it sets up
@@ -68,24 +68,24 @@ What it sets up
 * [CloudApp] for sharing screenshots and making an animated GIF from a video
 * [Cloud Foundry CLI] for command line access to 18F's Cloud Foundry-based application platform
 * [Flux] for adjusting your Mac's display color so you can sleep better
-* [GitHub Desktop] for setting up your SSH keys automatically
+* ~~[GitHub Desktop] for setting up your SSH keys automatically~~
 * [Homebrew] for managing operating system libraries
 * [Homebrew Cask] for quickly installing Mac apps from the command line
 * [Homebrew Services] so you can easily stop, start, and restart services
 * [hub] for interacting with the GitHub API
 * [ImageMagick] for cropping and resizing images
-* [MySQL] for storing relational data
+* ~~[MySQL] for storing relational data~~
 * [n] for managing Node.js versions if you do not have [Node.js] already installed (Includes latest [Node.js] and [NPM], for running apps and installing JavaScript packages)
 * [PhantomJS] for headless website testing (unless on El Capitan, due to [this bug](https://github.com/Homebrew/homebrew/issues/42249))
 * [Postgres] for storing relational data
-* [pyenv] for managing Python versions if you do not have [Python] already installed (includes the latest 3.x [Python])
+* ~~[pyenv] for managing Python versions if you do not have [Python] already installed (includes the latest 3.x [Python])~~
 * [Redis] for storing key-value data
 * [RVM] for managing Ruby versions (includes [Bundler] and the latest [Ruby])
 * [Slack] for communicating with your team
 * [Sublime Text 3] for coding all the things
 * [The Silver Searcher] for finding things in files
-* [Virtualenv] for creating isolated Python environments (via [pyenv] if it is installed)
-* [Virtualenvwrapper] for extending Virtualenv (via [pyenv] if it is installed)
+* ~~[Virtualenv] for creating isolated Python environments (via [pyenv] if it is installed)~~
+* ~~[Virtualenvwrapper] for extending Virtualenv (via [pyenv] if it is installed)~~
 * [Zsh] as your shell
 
 [Bundler]: http://bundler.io/
@@ -170,7 +170,7 @@ Laptop functions such as `fancy_echo`, `brew_install_or_upgrade`,
 cd ~
 
 # Download the sample file to your computer
-curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/.laptop.local
+curl --remote-name https://raw.githubusercontent.com/amoose/laptop/master/.laptop.local
 ```
 
 Credits
