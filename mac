@@ -278,6 +278,7 @@ brew_cask_install 'github-desktop'
 brew_cask_install 'slack'
 brew_cask_install 'sublime-text3'
 brew_cask install 'sizeup'
+brew_cask install 'caffeine'
 
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
