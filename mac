@@ -280,6 +280,10 @@ brew_cask_install 'sublime-text3'
 brew_cask_install 'sizeup'
 brew_cask_install 'unison'
 brew_cask_install 'caffeine'
+brew_cask_install 'firefox'
+brew_cask_install 'iterm2'
+brew_install_or_upgrade 'vim'
+brew_install_or_upgrade 'ctags'
 
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
