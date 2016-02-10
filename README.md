@@ -34,7 +34,7 @@ script, respectively:
 
 ```sh
 curl -sSL https://raw.githubusercontent.com/amoose/laptop/master/mac \
-bash -s stable 2>&1 | tee ~/laptop.log
+| bash -s stable 2>&1 | tee ~/laptop.log
 ```
 The [script](https://github.com/amoose/laptop/blob/master/mac) itself is
 available in this repo for you to review if you want to see what it does
