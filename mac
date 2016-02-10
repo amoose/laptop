@@ -277,13 +277,13 @@ brew_cask_install 'flux'
 # brew_cask_install 'github-desktop'
 brew_cask_install 'slack'
 brew_cask_install 'sublime-text3'
-brew_cask install 'sizeup'
-brew_cask install 'unison'
+brew_cask_install 'sizeup'
+brew_cask_install 'unison'
 
 fancy_echo "Adding Caffeine to Homebrew..."
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" \
   < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null
-brew_cask install 'caffeine'
+brew_cask_install 'caffeine'
 
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
