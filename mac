@@ -38,7 +38,7 @@ if [ ! -d "$HOME/.bin/" ]; then
 fi
 
 if [ ! -f "$HOME/.zshrc" ]; then
-  touch "$HOME/.zshrc"
+  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
 
 # shellcheck disable=SC2016
