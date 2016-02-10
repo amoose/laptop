@@ -281,9 +281,8 @@ brew_cask_install 'sizeup'
 brew_cask_install 'unison'
 
 fancy_echo "Adding Caffeine to Homebrew..."
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" \
-  < /dev/null 2> /dev/null 
-  # brew install caskroom/cask/brew-cask 2> /dev/null
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install caskroom/cask/brew-cask
 brew_cask_install 'caffeine'
 
 if [ -f "$HOME/.laptop.local" ]; then
