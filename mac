@@ -274,7 +274,6 @@ brew_tap 'caskroom/versions'
 
 brew_cask_install 'cloud'
 brew_cask_install 'flux'
-# brew_cask_install 'github-desktop'
 brew_cask_install 'slack'
 brew_cask_install 'sublime-text3'
 brew_cask_install 'sizeup'
@@ -284,6 +283,9 @@ brew_cask_install 'firefox'
 brew_cask_install 'iterm2'
 brew_install_or_upgrade 'vim'
 brew_install_or_upgrade 'ctags'
+brew_cask_install 'virtualbox'
+brew_cask_install 'vagrant'
+brew_cask_install 'vagrant-manager'
 
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
