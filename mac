@@ -264,6 +264,10 @@ fancy_echo "Configuring Bundler ..."
 number_of_cores=$(sysctl -n hw.ncpu)
 bundle config --global jobs $((number_of_cores - 1))
 
+gem_install_or_update 'gorgeous'
+gem_install_or_update 'git-smart'
+
+
 fancy_echo '...Finished Ruby installation checks.'
 
 brew_tap 'caskroom/cask'
