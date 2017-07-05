@@ -5,6 +5,16 @@ Laptop
 ## Tune in to your regularly scheduled README at [18f/laptop](https://github.com/18F/laptop#readme)
 
 
+#### Your development machine, automated...
+
+```sh
+curl -sSL https://raw.githubusercontent.com/amoose/laptop/master/mac \
+| bash -s stable 2>&1 | tee ~/laptop.log
+```
+The [script](https://github.com/amoose/laptop/blob/master/mac) itself is
+available in this repo for you to review if you want to see what it does
+and how it works.
+
 ### Public domain
 
 thoughtbot's original work remains covered under an [MIT License](https://github.com/thoughtbot/laptop/blob/c997c4fb5a986b22d6c53214d8f219600a4561ee/LICENSE).
